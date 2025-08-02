@@ -34,9 +34,66 @@ a:hover {
     color: #fff;
 }
 
+img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    /* margin-bottom: 20px; */
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 20px;
+}
+
+ol {
+    list-style-type: decimal;
+    margin: 20px;
+}
+
+li {
+    margin: 10px;
+}
+
 .recipes {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    margin: 20px;
+}
+
+.list {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.content h3 {
+    text-decoration: underline;
+    text-decoration-color: #b80f0f;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
 }
